@@ -1,5 +1,5 @@
 variable "region" {
-  default     = "us-west-1"
+  default     = "us-east-1"
   description = "AWS region"
 }
 
@@ -10,12 +10,12 @@ variable "ssh_key" {
 
 variable "subnets" {
   description = "subnets for workers"
-  default = ["subnet-6e40e008", "subnet-fdd12da7"]
+  default = ["subnet-0c1622b82b3c369e3", "subnet-0a76e2183953fdd87"]
 }
 
 variable "vpc" {
   description = "VPC ID"
-  default = "vpc-a6d021c0"
+  default = "vpc-06d9c1d3ecf203e11"
 }
 
 variable "instance_type" {
